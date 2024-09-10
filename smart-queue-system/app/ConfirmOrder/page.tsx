@@ -25,7 +25,7 @@ function ConfirmOrder() {
             <input
               type='text'
               placeholder='ระบุหมายเหตุ เช่น ไม่ผัก น้ำเยอะ'
-              className='border-primary w-[200px]'
+              className='border-black border text-sm rounded-md py-1 px-4'
             />
           </div>
         </div>
