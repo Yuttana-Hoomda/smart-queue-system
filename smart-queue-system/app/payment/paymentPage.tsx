@@ -2,10 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
-import qrImage from "../images/qrCode.png";
 
 const PaymentPage: React.FC = () => {
-    const router = useRouter();
     
     // useEffect(() => {
     //     // ตั้งเวลา 5 นาที (300,000 มิลลิวินาที)
@@ -24,7 +22,7 @@ const PaymentPage: React.FC = () => {
         <div className="flex flex-col items-center">
           {/* Placeholder for QR Code Image */}
           <Image 
-            src={qrImage} 
+            src='' 
             alt="QR Code" 
             width={192} // กำหนดขนาดที่ต้องการ
             height={192} 
